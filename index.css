@@ -1,0 +1,30 @@
+.Herosection {
+    display: flex;
+    gap:10px;
+    justify-content: space-around;
+    @media (max-width:768px){
+        flex-direction: column;
+    }
+}
+.circle-name{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 25px;
+    border: 8px solid black;
+    justify-content: center;
+    margin: 20px auto;
+
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.buttonclass{
+    background-color: blue;
+    color: white;
+    width: fit-content;
+}
